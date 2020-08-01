@@ -9,4 +9,4 @@ EXPOSE ${EXPOSED_PORT}
 ENTRYPOINT exec java $JAVA_OPTS  -jar /usr/share/app.jar
 
 
-# for devops coach demo, add docker hub repo
+# for devops coach demo
