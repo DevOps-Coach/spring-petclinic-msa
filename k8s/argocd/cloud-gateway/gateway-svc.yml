@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gateway-service
-          image: martinliu/spring-petclinic-cloud-gateway:Build-23-CI
+          image: martinliu/spring-petclinic-cloud-gateway:Build-30-CI
           env:
             - name: SERVER_PORT
               value: "8080"
