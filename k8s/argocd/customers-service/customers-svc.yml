@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: customers
-          image: martinliu/spring-petclinic-customers-service:Build-36-CI
+          image: martinliu/spring-petclinic-customers-service:Build-42-CI
           resources:
             requests:
               memory: "128Mi"

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: vets
-          image: martinliu/spring-petclinic-vets-service:Build-37-CI
+          image: martinliu/spring-petclinic-vets-service:Build-43-CI
           env:
             - name: SERVER_PORT
               value: "8080"
