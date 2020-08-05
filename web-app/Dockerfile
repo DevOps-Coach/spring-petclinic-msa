@@ -13,7 +13,7 @@ EXPOSE ${EXPOSED_PORT}
 # for devops coach demo :1.0.0.RELEASE
 
 ENTRYPOINT exec java $JAVA_OPTS -javaagent:/usr/share/elastic-apm-agent.jar \
-  -Delastic.apm.service_name=cloud-gateway \
+  -Delastic.apm.service_name=web-app \
   -Delastic.apm.server_urls=https://af1c19871877424cb712bfbaac9c6a40.apm.asia-east1.gcp.elastic-cloud.com:443 \
   -Delastic.apm.secret_token=StK2aX51n30KLjiQ3S \
   -Delastic.apm.application_packages=org.example \
