@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: visits
-          image: martinliu/spring-petclinic-visits-service:Build-26-CI
+          image: martinliu/spring-petclinic-visits-service:Build-38-CI
           readinessProbe:
             httpGet:
               path: /actuator/health
