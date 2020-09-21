@@ -14,7 +14,7 @@ EXPOSE ${EXPOSED_PORT}
 
 ENTRYPOINT exec java $JAVA_OPTS -javaagent:/usr/share/elastic-apm-agent.jar \
   -Delastic.apm.service_name=vets-service \
-  -Delastic.apm.server_urls=https://af1c19871877424cb712bfbaac9c6a40.apm.asia-east1.gcp.elastic-cloud.com:443 \
-  -Delastic.apm.secret_token=StK2aX51n30KLjiQ3S \
+  -Delastic.apm.server_urls=https://e880d96bb366461aa64eec325cdf8c83.apm.ap-northeast-2.aws.elastic-cloud.com:443 \
+  -Delastic.apm.secret_token=9UMJkjRXKhEfc0GOU0 \
   -Delastic.apm.application_packages=org.example \
   -jar /usr/share/app.jar
