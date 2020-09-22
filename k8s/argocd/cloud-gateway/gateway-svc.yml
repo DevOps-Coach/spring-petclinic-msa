@@ -38,7 +38,7 @@ spec:
     app: gateway
   ports:
     - name: http
-      port: 8080
+      port: 8180
       targetPort: 8080
       nodePort: 31080
-  type: NodePort
+  type: LoadBalancer
